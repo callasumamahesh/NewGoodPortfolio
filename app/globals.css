@@ -16,3 +16,8 @@ p {
     --radius: 0.5rem;
   }
 }
+
+:root {
+  font-family: var(--font-inter), sans-serif;
+  color: #4B5563;
+}

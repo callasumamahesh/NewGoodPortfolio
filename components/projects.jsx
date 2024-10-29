@@ -146,7 +146,7 @@ export default function ProjectsSection() {
   );
 
   return (
-    <section className="py-20 bg-gradient-to-b from-purple-50 to-indigo-100">
+    <section className="py-20 bg-gradient-to-b color-[4B5633] from-purple-50 to-indigo-100">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-4xl font-bold text-purple-800">Featured Projects</h2>
