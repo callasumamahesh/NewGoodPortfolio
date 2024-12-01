@@ -82,7 +82,7 @@ const ExperienceSection = () => {
     const IconComponent = experience.IconComponent;
 
     return (
-      <Card className="border-l-4 text-gray-700 border-l-purple-600 bg-white/80 backdrop-blur-sm hover:shadow-lg transition-shadow duration-300">
+      <Card className="border-l-4 border-l-purple-600 bg-white/80 backdrop-blur-sm hover:shadow-lg transition-shadow duration-300 pr-4">
         <CardContent className="p-6">
           <div className="flex items-start gap-6">
             <div className="p-3 rounded-full bg-purple-100">
@@ -121,7 +121,7 @@ const ExperienceSection = () => {
                 </div>
               </div>
 
-              <p className="text-gray-600 font-semibold">{experience.description}</p>
+              <p className="">{experience.description}</p>
 
               <div className="space-y-4">
                 <div>
@@ -141,9 +141,9 @@ const ExperienceSection = () => {
                     <Trophy className="h-4 w-4 text-purple-600" />
                     <h4 className="font-semibold text-purple-700">Key Achievements</h4>
                   </div>
-                  <ul className="space-y-2  font-semibold">
+                  <ul className="space-y-2">
                     {experience.achievements.map((achievement, index) => (
-                      <li key={index} className="flex items-start gap-2">
+                      <li key={index} className="flex items-start gap-3">
                         <div className="h-1.5 w-1.5 rounded-full bg-purple-600 mt-2" />
                         {achievement}
                       </li>

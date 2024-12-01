@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { GithubIcon, LinkedinIcon, Globe, Mail, Phone, Download, ArrowRight } from "lucide-react";
 import Image from "next/image";
-import profileImage from "/public/Assets/ProfileImage.jpeg"
+import profileImage from "/public/Assets/ProfileImage.webp"
 import { projects } from "../data/data.js";
 import ProjectsSection from "@/components/projects";
 import ExperienceSection from "@/components/experience";
@@ -17,7 +17,7 @@ export default function Component() {
   // Dummy data
   const profileData = {
     name: "BANDA UMAMAHESH",
-    title: "Full Stack Developer",
+    title: "Full Stack Web Developer.",
     bio: "I am a passionate and skilled Full Stack Web Developer with a strong focus on frontend technologies. Graduating with a degree in Mechanical Engineering from G Pulla Reddy Engineering College, I honed my expertise in technologies like HTML, React, Next.js, Tailwind CSS, and MongoDB through various internships and professional roles. Currently working as a Frontend Developer at SnapperIT, I am a quick learner, a problem-solver, and always eager to improve my skills and deliver impactful solutions.",
     socials: {
       phone: "9392508242",
@@ -98,7 +98,7 @@ export default function Component() {
                 BANDA UMAMAHESH
               </h1>
               <h2 className="text-2xl font-bold text-purple-700">{profileData.title}</h2>
-              <p className="text-[16px] leading-relaxed font-semibold text-gray-6 00">{profileData.bio}</p>
+              <p className="">{profileData.bio}</p>
 
               <div className="flex flex-wrap gap-4 pt-4">
                 <Button className="group bg-purple-600 hover:bg-purple-700 text-white">

@@ -19,5 +19,16 @@ p {
 
 :root {
   font-family: var(--font-inter), sans-serif;
-  color: #4B5563;
+  font-size: 16px;
+  /* color: #4B5563; */
+}
+
+p{
+  color: black;
+}
+
+@media (max-width:600px){
+  body{
+  font-size: 10px;
+  }
 }

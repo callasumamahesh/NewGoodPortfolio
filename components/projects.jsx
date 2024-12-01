@@ -6,11 +6,11 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { GithubIcon, ExternalLink } from "lucide-react";
-import BookYourShow from '../public/Assets/BookYourShow.jpg'
-import midStart from '../public/Assets/midStart.PNG'
-import MovieWebsite from '../public/Assets/MovieWebsite.PNG'
-import ResponseForm from '../public/Assets/ResponseForm.PNG'
-import TakeWhatYouWant from '../public/Assets/TakeWhatYouWant.PNG'
+import BookYourShow from '../public/Assets/BookYourShow.webp'
+import midStart from '../public/Assets/midStart.webp'
+import MovieWebsite from '../public/Assets/MovieWebsite.webp'
+import ResponseForm from '../public/Assets/ResponseForm.webp'
+import TakeWhatYouWant from '../public/Assets/TakeWhatYouWant.webp'
 import Image from 'next/image';
 
 export default function ProjectsSection() {
@@ -82,8 +82,8 @@ export default function ProjectsSection() {
 
   // Project Card Component
   const ProjectCard = ({ project }) => (
-    <Card className="group overflow-hidden color-white text-[16px] font-semibold border-2 border-purple-200 hover:border-purple-600 transition-colors bg-white/80 backdrop-blur-sm">
-      <div className="grid md:grid-cols-2 gap-6 text-[16px]">
+    <Card className="group overflow-hidden color-white text-[16px] border-2 border-purple-200 hover:border-purple-600 transition-colors bg-white/80 backdrop-blur-sm">
+      <div className="grid md:grid-cols-2 gap-6">
         <div className="overflow-hidden">
           <Image
             src={project.image}
