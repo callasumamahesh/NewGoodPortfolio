@@ -32,7 +32,6 @@ export default function Component() {
       { label: "Internships", value: "3" }
     ]
   };
-  
 
 
   return (
