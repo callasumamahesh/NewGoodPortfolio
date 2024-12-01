@@ -11,7 +11,6 @@ import midStart from '../public/Assets/midStart.PNG'
 import MovieWebsite from '../public/Assets/MovieWebsite.PNG'
 import ResponseForm from '../public/Assets/ResponseForm.PNG'
 import TakeWhatYouWant from '../public/Assets/TakeWhatYouWant.PNG'
-import profileImage from '../public/Assets/profileImage.jpeg'
 import Image from 'next/image';
 
 export default function ProjectsSection() {
