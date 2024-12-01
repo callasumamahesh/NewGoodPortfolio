@@ -1,24 +1,24 @@
-'use client'
-import React from 'react';
+"use client"
+import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { GithubIcon, LinkedinIcon, Globe, Mail, Phone, Download, ArrowRight } from "lucide-react";
-import Image from 'next/image';
-import profileImage from '../public/Assets/profileImage.jpeg'
-import { projects } from '../data/data.js';
-import ProjectsSection from '@/components/projects';
-import ExperienceSection from '@/components/experience';
-import SkillsSection from '@/components/skills';
-import NavigationBar from '@/components/navigation';
-import ContactSection from '@/components/contact';
+import Image from "next/image";
+import profileImage from "../public/Assets/profileImage.jpeg"
+import { projects } from "../data/data.js";
+import ProjectsSection from "@/components/projects";
+import ExperienceSection from "@/components/experience";
+import SkillsSection from "@/components/skills";
+import NavigationBar from "@/components/navigation";
+import ContactSection from "@/components/contact";
 
 export default function Component() {
   // Dummy data
   const profileData = {
     name: "BANDA UMAMAHESH",
     title: "Full Stack Developer",
-    bio: " I'm a passionate and skilled Full Stack Web Developer with a strong focus on frontend technologies. Graduating with a degree in Mechanical Engineering from G Pulla Reddy Engineering College,I've honed my expertise in technologies like HTML,React, Next.js, Tailwind CSS, and MongoDB through various internshipsand professional roles. Currently working as a Frontend Developer at SnapperIT, I'm a quick learner, a problem-solver, and always eager to improve my skills and deliver impactful solutions.",
+    bio: "I am a passionate and skilled Full Stack Web Developer with a strong focus on frontend technologies. Graduating with a degree in Mechanical Engineering from G Pulla Reddy Engineering College, I honed my expertise in technologies like HTML, React, Next.js, Tailwind CSS, and MongoDB through various internships and professional roles. Currently working as a Frontend Developer at SnapperIT, I am a quick learner, a problem-solver, and always eager to improve my skills and deliver impactful solutions.",
     socials: {
       phone: "9392508242",
       email: "bandaumamahesh1919@gmail.com",
@@ -32,6 +32,7 @@ export default function Component() {
       { label: "Internships", value: "3" }
     ]
   };
+  
 
 
   return (
@@ -40,7 +41,7 @@ export default function Component() {
       <NavigationBar />
 
       {/* Hero Section */}
-      <section id='about' className="py-20 ">
+      <section id="about" className="py-20 ">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center gap-12">
             {/* Image Section */}
@@ -66,8 +67,8 @@ export default function Component() {
                       <h2 className="text-2xl font-bold text-purple-700">Connect With Me</h2>
                       <div className="flex space-x-6">
                         {[
-                          { icon: Phone, link: `tel:${profileData.socials.phone}`, type: 'phone' },
-                          { icon: Mail, link: `mailto:${profileData.socials.email}`, type: 'email' },
+                          { icon: Phone, link: `tel:${profileData.socials.phone}`, type: "phone" },
+                          { icon: Mail, link: `mailto:${profileData.socials.email}`, type: "email" },
                           { icon: GithubIcon, link: profileData.socials.github },
                           { icon: LinkedinIcon, link: profileData.socials.linkedin },
                           { icon: Globe, link: profileData.socials.portfolio },
@@ -77,7 +78,7 @@ export default function Component() {
                             variant="outline"
                             size="icon"
                             className="h-12 w-12 rounded-full border-purple-400 text-purple-600 hover:bg-purple-100 hover:text-purple-700 transition-colors"
-                            onClick={() => window.open(social.link, '_blank')}
+                            onClick={() => window.open(social.link, "_blank")}
                           >
                             <social.icon className="h-6 w-6" />
                           </Button>
@@ -105,7 +106,7 @@ export default function Component() {
                   Contact Me
                   <Mail className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
                 </Button>
-                <a href='https://umamaheshresume1.netlify.app/' target='_blank'>
+                <a href="https://umamaheshresume1.netlify.app/" target="_blank">
 
                   <Button variant="outline" className="border-purple-600 text-purple-600 hover:bg-purple-100">
                     Download CV
@@ -135,22 +136,22 @@ export default function Component() {
       </section>
 
       {/* Experience Section */}
-      <div id='experience'>
+      <div id="experience">
         <ExperienceSection />
       </div>
 
       {/* Projects Section */}
-      <div id='projects'>
+      <div id="projects">
         <ProjectsSection />
       </div>
 
       {/* Skills Section */}
-      <div id='skills'>
+      <div id="skills">
         <SkillsSection />
       </div>
 
       {/* Social Section */}
-      <div id='contact'>
+      <div id="contact">
         <ContactSection />
       </div>
 
@@ -160,7 +161,7 @@ export default function Component() {
           <div className="flex flex-col items-center text-center space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold">Ready to start a project?</h2>
             <p className="text-lg max-w-2xl">
-              I'm currently available for freelance work. Let's build something amazing together!
+              I am currently available for freelance work. Let build something amazing together!
             </p>
             <Button
               size="lg"

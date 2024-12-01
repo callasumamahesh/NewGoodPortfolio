@@ -23,7 +23,7 @@ const ExperienceSection = () => {
       company: "Snapper IT",
       location: "Colossal fortuna,Kakatiya Hills.",
       period: "2024 - Present",
-      description: "I am employed as a Frontend Developer at the innovative business SnapperIT, where I create dynamic online apps. I'm now working on a real-time attendance software at SnapperIT to      simplify the process of recording attendance. Check-ins, check-outs, attendance reports, and leave management are all included in the app, which offers administrators and staff a smooth experience. The program guarantees effectiveness and seamless user interactions by utilizing Next.js for server-side rendering and useContext for global state management.Additionally, I worked on Wordpress to construct a portion of the Paino website.",
+      description: "I am employed as a Frontend Developer at the innovative business SnapperIT, where I create dynamic online apps. I am now working on a real-time attendance software at SnapperIT to simplify the process of recording attendance. Check-ins, check-outs, attendance reports, and leave management are all included in the app, which offers administrators and staff a smooth experience. The program guarantees effectiveness and seamless user interactions by utilizing Next.js for server-side rendering and useContext for global state management.Additionally, I worked on Wordpress to construct a portion of the Paino website.",
       IconComponent: Building2,
       skills: ["Next Js","React", "JavaScript","Tailwind CSS",'WordPress'],
       achievements: [
