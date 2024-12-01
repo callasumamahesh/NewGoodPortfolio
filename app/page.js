@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { GithubIcon, LinkedinIcon, Globe, Mail, Phone, Download, ArrowRight } from "lucide-react";
 import Image from "next/image";
-import profileImage from "../public/Assets/profileImage.jpeg"
+import profileImage from "../public/Assets/ProfileImage.jpeg"
 import { projects } from "../data/data.js";
 import ProjectsSection from "@/components/projects";
 import ExperienceSection from "@/components/experience";
