@@ -3,10 +3,10 @@
 import React from 'react';
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { 
-  MonitorPlay, 
-  Building2, 
-  GraduationCap, 
+import {
+  MonitorPlay,
+  Building2,
+  GraduationCap,
   MapPin,
   Calendar,
   Trophy,
@@ -25,7 +25,7 @@ const ExperienceSection = () => {
       period: "2024 - Present",
       description: "I am employed as a Frontend Developer at the innovative business SnapperIT, where I create dynamic online apps. I am now working on a real-time attendance software at SnapperIT to simplify the process of recording attendance. Check-ins, check-outs, attendance reports, and leave management are all included in the app, which offers administrators and staff a smooth experience. The program guarantees effectiveness and seamless user interactions by utilizing Next.js for server-side rendering and useContext for global state management.Additionally, I worked on Wordpress to construct a portion of the Paino website.",
       IconComponent: Building2,
-      skills: ["Next Js","React", "JavaScript","Tailwind CSS",'WordPress'],
+      skills: ["Next Js", "React", "JavaScript", "Tailwind CSS", 'WordPress'],
       achievements: [
         "Understanding the real time company policies.",
         "Implementing a real time Attendance App."
@@ -41,36 +41,41 @@ const ExperienceSection = () => {
       period: "May 2024 - August 2024",
       description: " This internship has taught me how to use Express and MongoDB on the backend.I created an e-cart website by using Next js during this internship which has amazing features like signup, signin, cart functionality, Adding products to your cart as well as removing products from your cart and checkout page, to view it visit the link below.",
       IconComponent: Building2,
-      skills: ["MongoDB", "Express.js", "React", "Node.js", "Next Js",'Tailwind CSS'],
+      skills: ["MongoDB", "Express.js", "React", "Node.js", "Next Js", 'Tailwind CSS'],
       achievements: [
-        "Implemented a real time small app."
+        "Developed user authentication features, including sign-in and sign-up functionalities.",
+        "Utilized MongoDB to implement a real-time database for managing cart items and product storage.",
+        "Designed a comprehensive checkout page and dynamic single product pages for an enhanced user experience.",
+        "Added a robust search functionality with filters for category, price, and star ratings, improving usability and accessibility.",
+
       ],
       link: "https://digitalsolutions.com"
     },
     {
       id: 3,
       type: "Internship",
-      title: "Frontend Developer.",
+      title: "Frontend Developer",
       company: "Bharat Intern - Internship",
       period: "May 2024 - August 2024",
       description: " During this internship, I had learn about the well-known and excellent React JavaScript framework. I had learn all topics in react, like components, routing, and hooks, through this internship. During this internship, I developed the website BookYourTicket.In a similar vein, when you click on Book My Show, a movie list with nearby theaters is displayed, and you can purchase a ticket as well..",
       IconComponent: Building2,
-      skills: ["HTML","CSS","JavaScript",'React','Api'],
+      skills: ["HTML", "CSS", "JavaScript", 'React', 'Api'],
       achievements: [
-        "Implemented a real time small app."
+        "Implemented real-time theater display based on user location.",
+        "Designed an intuitive seat selection interface integrated with a dynamic checkout page.",
+        "Utilized a movie database API to fetch and display a comprehensive list of movies.",
       ],
       link: "https://digitalsolutions.com"
     },
     {
       id: 4,
       type: "Internship",
-      title: "Full Stack Developer",
-      company: "Ravulapati Tech Hub - Internship",
-      location: "T-hub,Madhapur,Hyderabad.",
+      title: "Frontend Developer ",
+      company: "Habib IT Solution - Internship",
       period: "May 2024 - August 2024",
       description: " This internship has taught me HTML, CSS, and JavaScript. During my internship, I built a projects that taught me how to create responsive websites. i.e I created a notepad website with local storage and it has features like ceateing note, edit the note, adding tasks to note, added a checkbox to identify the task is complete or not.To view the website, click the below link.",
       IconComponent: Building2,
-      skills: ["HTML","CSS","JavaScript"],
+      skills: ["HTML", "CSS", "JavaScript"],
       achievements: [
         "Implemented a real time Notes app."
       ],
@@ -83,7 +88,7 @@ const ExperienceSection = () => {
 
     return (
       <Card className="border-l-4 border-l-purple-600 bg-white/80 backdrop-blur-sm hover:shadow-lg transition-shadow duration-300 pr-4">
-        <CardContent className="p-6">
+        <CardContent className="pt-4 pb-3 pl-0 pr-0 md:p-6">
           <div className="flex items-start gap-6">
             <div className="p-3 rounded-full bg-purple-100">
               <IconComponent className="h-6 w-6 text-purple-600" />
@@ -99,7 +104,7 @@ const ExperienceSection = () => {
                       <span>{experience.company}</span>
                     </div>
                   </div>
-                  <a 
+                  <a
                     href={experience.link}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -125,7 +130,7 @@ const ExperienceSection = () => {
 
               <div className="space-y-4">
                 <div>
-                  <div className="flex items-center gap-2 mb-2">
+                  <div className="flex items-center gap-2 mb-4">
                     <Code2 className="h-4 w-4 text-purple-600" />
                     <h4 className="font-semibold text-purple-700">Key Skills</h4>
                   </div>

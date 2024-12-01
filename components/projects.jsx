@@ -30,7 +30,7 @@ export default function ProjectsSection() {
       image: TakeWhatYouWant,
       category: "Web App",
       technologies: ["Next.js", "Node.js", "MongoDB", "Tailwind CSS", "CSS"],
-      liveUrl: "https://takewhatyoulike.vercel.app/",
+      liveUrl: "https://ecarttakewhatyouwant.vercel.app/",
       githubUrl: "https://github.com/callasumamahesh/task1",
       featured: true
     },
@@ -82,8 +82,8 @@ export default function ProjectsSection() {
 
   // Project Card Component
   const ProjectCard = ({ project }) => (
-    <Card className="group overflow-hidden color-white text-[16px] border-2 border-purple-200 hover:border-purple-600 transition-colors bg-white/80 backdrop-blur-sm">
-      <div className="grid md:grid-cols-2 gap-6">
+    <Card className="group overflow-hidden color-white border-2 border-purple-200 hover:border-purple-600 transition-colors bg-white/80 backdrop-blur-sm">
+      <div className="grid md:grid-cols-2 gap-6 pr-4 md:pr-0">
         <div className="overflow-hidden">
           <Image
             src={project.image}
@@ -94,7 +94,7 @@ export default function ProjectsSection() {
           />
         </div>
 
-        <div className="p-6 space-y-4">
+        <div className="pl-4 p-0 md:p-6 space-y-4">
           <CardHeader className="p-0">
             <div className="flex items-center justify-between mb-2">
               <Badge variant="secondary" className="text-sm bg-purple-100 text-purple-700">
